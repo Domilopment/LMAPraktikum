@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/GPS_Receiver"
+        android:entryValues="@array/GPS_Receiver"
+        android:key="receiver_switch"
+        android:title="GPS receiver"
+        android:summary="Auswahl des GPS Clients" />
+    <PreferenceCategory
+        android:title="Select a GPS receiver"
+        android:key="gps_category" />
+    <PreferenceCategory android:title="Sensors">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch_accelero"
+            android:summary="Beschleunigungssensor auswerten."
+            android:title="Accelerometer" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch_gyro"
+            android:summary="Gyroskop auswerten."
+            android:title="Gyroskop" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch_compass"
+            android:summary="Kompass auswerten."
+            android:title="Kompass/Magnetometer" />
+        <SeekBarPreference
+            android:key="seekbar_general"
+            android:max="60000"
+            android:summary="Sample-Frequenz aller Sensoren außer GPS"
+            android:title="Generelle Sampling-Frequenz"
+            app:showSeekBarValue="true"
+            app:min="2000" />
+    </PreferenceCategory>
+</PreferenceScreen>

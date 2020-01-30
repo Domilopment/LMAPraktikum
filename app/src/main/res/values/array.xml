@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="GPS_Receiver">
+        <item>LocationManager</item>
+        <item>FusedLocationProvider</item>
+    </string-array>
+    <string-array name="Fuesed_Priority">
+        <item>HIGH ACCURACY</item>
+        <item>BALANCED POWER ACCURACY</item>
+        <item>LOW POWER</item>
+        <item>NO POWER</item>
+    </string-array>
+    <string-array name="Fuesed_Priority_values">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+</resources>

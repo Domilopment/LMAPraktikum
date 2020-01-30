@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LMAPraktikum</string>
+    <string name="title_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_location_manager">LocationManager</string>
+    <string name="title_sensors">Sensors</string>
+
+    <string name="locatiom_manager_tab_1">Log</string>
+    <string name="locatiom_manager_tab_2">Map</string>
+
+    <string name="sensors_tab_1">Log</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
